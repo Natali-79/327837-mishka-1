@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+	<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Каталог изделий</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="page">
+		<header class="header">
+			<div class="header__logo">
+				<h1 class="header__logo-title hidden">
+					Мишка
+				</h1>
+				<a class="header__logo-img" href="/"></a>
+			</div>
+			<nav class="main-menu">
+				<button type="button" class="main-menu__burger main-menu__burger--open"></button>
+				<div class="main-menu__wrapper-items hidden">
+					<ul class="main-menu__items1">
+						<li class="main-menu__item">
+							<a href="catalog.html" class="main-menu__link">Каталог товаров</a>
+						</li>
+						<li class="main-menu__item">
+							<a href="form.html" class="main-menu__link main-menu__link--left">Вязание на заказ</a>
+						</li>
+					</ul>
+					<ul class="main-menu__items2">
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link"><span >Поиск по сайту</span></a>
+						</li>
+						<li class="main-menu__item">
+							<a href="/purchase/" class="main-menu__link main-menu__link--padding"><span>Корзина: пока пуста</span></a>
+						</li>
+					</ul>
+					<ul class="main-menu__items3">
+						<li class="main-menu__item">
+							<a href="catalog.html" class="main-menu__link">Новые поступления</a>
+						</li>
+						<li class="main-menu__item">
+							<a href="form.html" class="main-menu__link main-menu__link--left">Распродажа</a>
+						</li>
+					</ul>
+					<ul class="main-menu__items4">
+						<li class="main-menu__item">
+							<a href="#" class="main-menu__link">Бесплатная доставка по России</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="section-product">
+				<header class="section-product__header main-header">
+					<h2 class="section-product__title">Каталог товаров</h2>
+				</header>				
+				<ul class="section-product__menu hidden">
+					<li class="section-product__item">
+						<a href="/interior-items/" class="section-product__link section-product__link--left-green"><span>Предметы<br>интерьера</span></a>
+					</li>
+					<li class="section-product__item">
+						<a href="/kids-toys/" class="section-product__link section-product__link--right-green"><span>Детские<br>игрушки</span></a>
+					</li>
+				</ul>
+			</section>
+		</header>			
+		<div class="main">
+			<ul class="catalog">
+				<li class="catalog__unit">
+					<div class="catalog__block1">
+						<a href="#" class="catalog__link">
+							<img src="http://placehold.it/150x100">
+						</a>
+					</div>	
+					<div class="catalog__product-wrapper">
+						<div class="catalog__description-wrapper">
+							<div class="catalog__block2">
+								<a href="#" class="catalog__link">		
+									<h3 class="catalog__product-name">Зайчик-попрыгачик</h3>
+								</a>					
+							</div>
+							<div class="catalog__block3">
+								<p class="catalog__product-feature">Рост 30 см, вес 30 г.</p>
+							</div>
+						</div>
+						<div class="catalog__block4">
+							<p class="catalog__cost">1200 руб.</p>
+							<a href="#modal" class="catalog__cart"></a>
+						</div>
+					</div>					
+				</li>
+				<li class="catalog__unit">
+					<div class="catalog__block1">
+						<a href="#" class="catalog__link">
+							<img src="http://placehold.it/150x100">
+						</a>
+					</div>
+					<div class="catalog__product-wrapper">
+						<div class="catalog__description-wrapper">
+							<div class="catalog__block2">
+								<a href="#" class="catalog__link">		
+									<h3 class="catalog__product-name">Корзинка для белья</h3>
+								</a>					
+							</div>
+							<div class="catalog__block3">
+								<p class="catalog__product-feature">Диаметр 15 см, высота 10 см</p>
+							</div>
+						</div>
+						<div class="catalog__block4">
+							<p class="catalog__cost">690 руб.</p>
+							<a href="#modal" class="catalog__cart"></a>
+						</div>
+					</div>
+				</li>
+				<li class="catalog__unit">
+					<div class="catalog__block1">
+						<a href="#" class="catalog__link">
+							<img src="http://placehold.it/150x100">
+						</a>
+					</div>
+					<div class="catalog__product-wrapper">
+						<div class="catalog__description-wrapper">
+							<div class="catalog__block2">
+								<a href="#" class="catalog__link">		
+									<h3 class="catalog__product-name">Большая корзинка<br>для игрушек</h3>
+								</a>					
+							</div>
+							<div class="catalog__block3">
+								<p class="catalog__product-feature">Диаметр 30 см, высота 30 см</p>
+							</div>
+						</div>
+						<div class="catalog__block4">
+							<p class="catalog__cost">1500 руб.</p>
+							<a href="#modal" class="catalog__cart"></a>
+						</div>
+					</div>					
+				</li>
+				<li class="catalog__unit">					
+					<div class="video">
+						<div class="video__header">
+							<h2 class="video__title">Процесс производства</h2>
+						</div>
+						<div class="video__figure">	
+							<a href="video" class="video__play">
+								<img src="http://placehold.it/150x100">							
+								<span class="video__image-play"></span>
+							</a>
+						</div>
+						<div class="video__description">
+							<p>По просьбам наших любимых фоллаверов мы нсяли для вас подробное виде о том как появляются наши товары.</p>
+						</div>
+						<div class="block-buttons">
+							<a href="#" class="block-buttons__button">Сделать заказ</a>
+						</div>
+					</div>	
+				</li>
+			</ul>
+		</div>
+		<footer class="footer">
+			<div class="footer__logo">
+			</div>
+			<ul class="social">
+				<li class="social__item">
+					<a href="#" class="social__link"></a>
+				</li>
+				<li class="social__item">
+					<a href="#" class="social__link"></a>
+				</li>
+				<li class="social__item">
+					<a href="#" class="social__link"></a>
+				</li>
+			</ul>
+			<div class="footer__copyright">
+				<p>Разработано</p> 
+				<a href="#" class="footer__copyright-logo"></a>			
+			</div>
+		</footer>
+		<div class="modal">
+			<h2 class="modal__title">Добавить в корзину</h2>
+			<p>Выберите размер:</p>
+			<ul class="size-group">
+				<li class="size-group__item"><a href="#" class="size-select size-select--hover">S</a></li>
+				<li class="size-group__item"><a href="#" class="size-select">M</a></li>
+				<li class="size-group__item"><a href="#" class="size-select">L</a></li>
+			</ul>
+		</div>
+	</body>
+</html>	
